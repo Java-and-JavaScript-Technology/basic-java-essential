@@ -1,0 +1,9 @@
+version: "3.2"
+
+services:
+  01-if-else:
+    container_name: 01-if-else
+    build: 
+      dockerfile: Dockerfile
+      context: ./
+    hostname: 01-if-else
